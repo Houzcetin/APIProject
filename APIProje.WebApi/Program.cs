@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddDbContext<APIContext>();
-builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddAutoMapper(cfg => { }, typeof(Program));
 builder.Services.AddScoped<IValidator<Product>, ProductValidator>();
 
 builder.Services.AddControllers();

@@ -1,8 +1,8 @@
-﻿using APIProje.WebApi.Dtos.FeatureDtos;
+using APIProje.WebApi.Dtos.FeatureDtos;
 using APIProje.WebApi.Dtos.MessageDtos;
+using APIProje.WebApi.Dtos.ProductDtos;
 using APIProje.WebApi.Entities;
 using AutoMapper;
-using Microsoft.Build.Framework.Profiler;
 
 namespace APIProje.WebApi.Mapping
 {
@@ -20,7 +20,7 @@ namespace APIProje.WebApi.Mapping
             CreateMap<Message, UpdateMessageDto>().ReverseMap();
             CreateMap<Message, GetByIdMessageDto>().ReverseMap();
 
-            CreateMap<Product, CreateFeatureDto>().ReverseMap();
+            CreateMap<Product, CreateProductDto>().ReverseMap();
 
 
         }
