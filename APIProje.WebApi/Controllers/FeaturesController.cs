@@ -1,4 +1,4 @@
-﻿using APIProje.WebApi.Context;
+using APIProje.WebApi.Context;
 using APIProje.WebApi.Dtos.FeatureDtos;
 using APIProje.WebApi.Entities;
 using AutoMapper;
@@ -10,13 +10,13 @@ namespace APIProje.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FeatureController : ControllerBase
+    public class FeaturesController : ControllerBase
     {
         private readonly IMapper _mapper;
         private readonly APIContext _contex;
 
 
-        public FeatureController(IMapper mapper, APIContext contex)
+        public FeaturesController(IMapper mapper, APIContext contex)
         {
             _mapper = mapper;
             _contex = contex;

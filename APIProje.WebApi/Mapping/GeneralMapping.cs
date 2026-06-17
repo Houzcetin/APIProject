@@ -20,7 +20,7 @@ namespace APIProje.WebApi.Mapping
             CreateMap<Message, UpdateMessageDto>().ReverseMap();
             CreateMap<Message, GetByIdMessageDto>().ReverseMap();
 
-
+            CreateMap<Product, CreateFeatureDto>().ReverseMap();
 
 
         }

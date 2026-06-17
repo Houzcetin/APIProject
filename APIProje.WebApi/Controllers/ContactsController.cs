@@ -1,4 +1,4 @@
-﻿using APIProje.WebApi.Context;
+using APIProje.WebApi.Context;
 using APIProje.WebApi.Dtos.ContactDtos;
 using APIProje.WebApi.Entities;
 using Microsoft.AspNetCore.Http;
@@ -8,11 +8,11 @@ namespace APIProje.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ContactController : ControllerBase
+    public class ContactsController : ControllerBase
     {
         private readonly APIContext _context;
 
-        public ContactController(APIContext context)
+        public ContactsController(APIContext context)
         {
             _context = context;
         }
