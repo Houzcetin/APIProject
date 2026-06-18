@@ -1,4 +1,4 @@
-namespace APIProje.WebUI1.Models
+namespace APIProje.WebUI.Models
 {
     public class ErrorViewModel
     {

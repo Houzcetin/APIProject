@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace APIProje.WebUI1.Controllers
+namespace APIProje.WebUI.Controllers
 {
     public class DefaultController : Controller
     {
