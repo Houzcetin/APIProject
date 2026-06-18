@@ -1,8 +1,8 @@
-using APIProje.WebUI1.Models;
+using APIProje.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace APIProje.WebUI1.Controllers
+namespace APIProje.WebUI.Controllers
 {
     public class HomeController : Controller
     {
